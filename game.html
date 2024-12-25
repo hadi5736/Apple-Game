@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی انتخاب خانه درست</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>بازی انتخاب خانه درست</h2>
+        <p>برای پیشرفت به ردیف بعدی، خانه درست را انتخاب کنید.</p>
+        
+        <div class="grid-container">
+            <!-- ردیف‌ها و ستون‌ها به صورت داینامیک در اینجا تولید خواهند شد -->
+        </div>
+        
+        <button id="next-row" style="display:none;">ردیف بعدی</button>
+        <p id="game-status"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<script>
+    // بررسی رمز عبور از ذخیره‌سازی موقتی
+    if (!localStorage.getItem('accessGranted')) {
+        // اگر کاربر از صفحه ورود عبور نکرده باشد، به صفحه اصلی هدایت می‌شود
+        window.location.href = "index.html"; // هدایت به صفحه ورود
+    }
+</script>
+
+</body>
+</html>

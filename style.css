@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.coin-count {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.score-selection {
+    margin-bottom: 20px;
+}
+
+#start-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #45a049;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    width: 50px;
+    height: 50px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-item.correct {
+    background-color: #4CAF50;
+}
+
+.grid-item.wrong {
+    background-color: #f44336;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#next-row {
+    background-color: #2196F3;
+}
+
+#next-row:hover {
+    background-color: #1e88e5;
+}
+
+#game-status {
+    font-weight: bold;
+    margin-top: 20px;
+}
